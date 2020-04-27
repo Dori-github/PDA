@@ -131,7 +131,7 @@ if max_temp<row[-1]:
 
 #### 전체 코드 정리
 ```python
- import csv #1:CSV모듈 불러오기
+import csv #1:CSV모듈 불러오기
 f=open('seoul.csv') #2:seoul.csv 파일 읽기 모드로 불러오기
 data=csv.reader(f)
 header = next(data) #3: 맨 윗줄을 header변수에 저장
