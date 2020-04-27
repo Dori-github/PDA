@@ -23,7 +23,7 @@ data=csv.reader(f,delimiter=',') # f를 reader()함수에 넣어 data라는 csv 
 print(data) #data 출력 
 f.close() # 연 파일을 닫음 
 ```
-실행값 :  <_csv.reader object at 0x0000015E5ACB0EB8>
+실행값 :  <_csv.reader object at 0x0000015E5ACB0EB8>  
 데이터가 csv reader 객체라는 의미. object at 뒤에 오는 것은 파일 위치.
 ```python
 f=open('seoul.csv','r',encoding='cp949') 
