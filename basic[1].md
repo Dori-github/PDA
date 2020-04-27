@@ -127,7 +127,7 @@ f.close()
 if max_temp<row[-1]:
     max_date=row[0]
     max_temp=row[-1]
-    ```
+```
 
 #### 전체 코드 정리
 ```python
